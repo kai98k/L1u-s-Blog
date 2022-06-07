@@ -91,7 +91,7 @@ fun_features:
 
     # 游标字符
     # Cursor character
-    cursorChar: "_"
+    cursorChar: "ฅ(^•ω•^)ฅ"
 
     # 是否循环播放效果
     # If true, loop animation
@@ -190,8 +190,8 @@ color:
 
   # 超链接悬浮时字体色
   # Color of link when hovering
-  link_hover_color: "#30a9de"
-  link_hover_color_dark: "#30a9de"
+  link_hover_color: "#DDD23B"
+  link_hover_color_dark: "#DDD23B"
 
   # 超链接悬浮背景色
   # Color of link background when hovering
@@ -205,7 +205,7 @@ color:
 
   # 滚动条颜色
   # Color of scrollbar
-  scrollbar_color: "#c4c6c9"
+  scrollbar_color: "#DDD23B"
   scrollbar_color_dark: "#687582"
   # 滚动条悬浮颜色
   # Color of scrollbar when hovering
@@ -240,7 +240,7 @@ custom_css:
 # 网页访问统计
 # Analysis of website visitors
 web_analytics:  # 网页访问统计
-  enable: false
+  enable: ture
 
   # 遵循访客浏览器"请勿追踪"的设置，如果开启则不统计其访问
   # Follow the "Do Not Track" setting of the visitor's browser
@@ -255,12 +255,12 @@ web_analytics:  # 网页访问统计
   # Google 统计的 Tracking ID
   # Google analytics, set Tracking ID
   # See: https://developers.google.com/analytics/devguides/collection/analyticsjs
-  google:
+  google: G-W47W1HDPM2
 
   # Google gtag.js 的媒体资源 ID
   # Google gtag.js GA_MEASUREMENT_ID
   # See: https://developers.google.com/analytics/devguides/collection/gtagjs/
-  gtag:
+  gtag: G-W47W1HDPM2
 
   # 腾讯统计的 H5 App ID，开启高级功能才有cid
   # Tencent analytics, set APP ID
@@ -470,7 +470,7 @@ index:
   # 头图黑色蒙版的不透明度，available: 0 - 1.0， 1 是完全不透明
   # Opacity of the banner mask, 1.0 is completely opaque
   # Available: 0 - 1.0
-  banner_mask_alpha: 0.3
+  banner_mask_alpha: 0.2
 
   # 首页副标题的独立设置
   # Independent config of home page subtitle
@@ -479,7 +479,7 @@ index:
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
-    text: "Two roads diverged in a yellow wood,<br> And sorry I could not travel both."
+    text: "Meow,Welcome to My Brain<br>"
 
     # 通过 API 接口作为首页副标题的内容，必须返回的是 JSON 格式，如果请求失败则按 text 字段显示，该功能必须先开启 typing 打字机功能
     # Subtitle of the homepage through the API, must be returned a JSON. If the request fails, it will be displayed in `text` value. This feature must first enable the typing animation
@@ -724,7 +724,7 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: ture
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
@@ -755,12 +755,12 @@ utterances:
 # Based on third-party service
 # See: https://disqus.com
 disqus:
-  shortname:
+  shortname: l1u870330
   # 以下为 Disqusjs 支持, 国内用户如果想使用 Disqus 建议配合使用
   # The following are Disqusjs configurations, please ignore if DisqusJS is not required
   # See: https://github.com/SukkaW/DisqusJS
-  disqusjs: false
-  apikey:
+  disqusjs: ture
+  apikey: 
 
 # Gitalk
 # 基于 GitHub Issues
