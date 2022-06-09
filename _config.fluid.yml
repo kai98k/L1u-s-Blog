@@ -190,8 +190,8 @@ color:
 
   # 超链接悬浮时字体色
   # Color of link when hovering
-  link_hover_color: "#DDD23B"
-  link_hover_color_dark: "#DDD23B"
+  link_hover_color: "#DDD23B !important"
+  link_hover_color_dark: "#DDD23B !important"
 
   # 超链接悬浮背景色
   # Color of link background when hovering
@@ -205,8 +205,8 @@ color:
 
   # 滚动条颜色
   # Color of scrollbar
-  scrollbar_color: "#DDD23B"
-  scrollbar_color_dark: "#687582"
+  scrollbar_color: "#DDD23B !important"
+  scrollbar_color_dark: "#DDD23B !important"
   # 滚动条悬浮颜色
   # Color of scrollbar when hovering
   scrollbar_hover_color: "#a6a6a6"
