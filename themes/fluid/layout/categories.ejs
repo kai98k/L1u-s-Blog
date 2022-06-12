@@ -17,3 +17,7 @@ var curCats = site.categories.find({ parent: { $exists: false } }).sort(orderBy)
     postOrderBy: theme.category.post_order_by || config.index_generator.order_by
   }
 }) %>
+<script>
+  RightNowPage[2].classList.add('active');
+  RightNowPage[2].setAttribute("aria-current", "page");
+</script>

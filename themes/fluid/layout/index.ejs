@@ -64,7 +64,6 @@ page.banner_mask_alpha = theme.index.banner_mask_alpha
 
 <%- partial('_partials/paginator') %>
 <script>
-  let x ="i";
-  let nav2 = document.querySelector('.navbar-nav');
-  console.log(nav2.children);
+  RightNowPage[0].classList.add('active');
+  RightNowPage[0].setAttribute("aria-current", "page");
 </script>

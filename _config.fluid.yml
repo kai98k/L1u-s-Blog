@@ -190,8 +190,8 @@ color:
 
   # 超链接悬浮时字体色
   # Color of link when hovering
-  link_hover_color: "#DDD23B !important"
-  link_hover_color_dark: "#DDD23B !important"
+  link_hover_color: "#DDD23B"
+  link_hover_color_dark: "#DDD23B"
 
   # 超链接悬浮背景色
   # Color of link background when hovering
@@ -236,6 +236,7 @@ custom_js:
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css:
+- /css/custom.css
 
 # 网页访问统计
 # Analysis of website visitors

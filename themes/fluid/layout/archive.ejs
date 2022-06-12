@@ -8,3 +8,7 @@ page.banner_mask_alpha = theme.archive.banner_mask_alpha
 %>
 
 <%- partial('_partials/archive-list.ejs', { params: { key: page.layout, postTotal: site.posts.length } }) %>
+<script>
+    RightNowPage[1].classList.add('active');
+    RightNowPage[1].setAttribute("aria-current", "page");
+</script>
