@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 愷弟貓你一拳
-subtitle: ''
-description: ''
-keywords: 非本科轉職,前後端工程師
+title: 愷弟貓抓板
+subtitle: 分享技術學習、生活心得、大小事
+description: 紀錄轉職工程師從無到有，以及碰到的困難挑戰，及過程上的心得
+keywords: 前端開發,後端開發,轉職,非本科
 author: 愷弟貓
 language: zh-TW
-timezone: ''
+timezone: 'Asia/Taipei'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: fluid
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,4 +105,4 @@ deploy:
   type: git
   repo: https://github.com/L1uXO330B7/L1uXO330B7.github.io.git # https://github.com/[你的 GitHub 帳號]/[你的 GitHub 帳號].github.io.git
   branch: master # 在這邊我是使用 mster 當作主要分支
-  message: 'HexoBlog'
+  message: 'deploy'
