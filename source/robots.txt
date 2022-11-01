@@ -1,0 +1,14 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /about/
+Allow: /links/ 
+Allow: /2022/
+
+Disallow: /js/
+Disallow: /css/
+
+Sitemap: https://l1uxo330b7.github.io/sitemap.xml
